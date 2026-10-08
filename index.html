@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>onefield</title>
+<meta name="description" content="onefield は、確定申告や事務作業の手間を減らすブラウザ拡張機能を開発・販売しています。">
+<link rel="icon" href="icon128.png">
+<style>
+  :root { --ink:#1d2733; --muted:#5d6b7a; --line:#dde3ea; --bg:#ffffff; --card:#f4f7f6; --accent:#1f6f5c; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#e6ebf0; --muted:#a3b0bd; --line:#34404c; --bg:#151b21; --card:#1d252c; --accent:#5cc3a6; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:15px/1.8 "Hiragino Sans","Yu Gothic UI","Meiryo",system-ui,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  header h1 { font-size:28px; margin:0; letter-spacing:.02em; }
+  header p { color:var(--muted); margin:4px 0 0; }
+  h2 { font-size:18px; margin:36px 0 12px; color:var(--accent); }
+  .product { display:flex; gap:16px; align-items:flex-start; background:var(--card); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  .product img { width:64px; height:64px; flex:none; }
+  .product h3 { margin:0 0 4px; font-size:17px; }
+  .product p { margin:0 0 8px; }
+  .price { font-weight:600; }
+  ul { padding-left:20px; margin:8px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
+  footer a { margin-right:16px; }
+  @media (max-width:480px) { .product { flex-direction:column; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>onefield</h1>
+  <p>確定申告や事務作業の手間を減らす、ブラウザ拡張機能をつくっています。</p>
+</header>
+
+<h2>製品</h2>
+<div class="product">
+  <img src="icon128.png" alt="">
+  <div>
+    <h3>Amazon経費仕分け（Chrome 拡張機能）</h3>
+    <p>Amazon.co.jp の注文履歴をカード明細 CSV と自動で突き合わせ、経費候補・私費・要確認に仕分けて、freee・マネーフォワード・弥生に取り込める CSV で出力します。注文データとカード明細はブラウザの中だけで処理し、外部には送信しません。</p>
+    <ul>
+      <li>注文履歴の CSV 出力：無料</li>
+      <li>カード明細との突合・仕分け・会計ソフト用出力：<span class="price">年額 1,000円（税込）</span>。無料の体験版で直近1か月分を試せます</li>
+    </ul>
+    <p>※Amazon.co.jp の公式ツールではありません。Chrome ウェブストアで公開準備中です。</p>
+  </div>
+</div>
+
+<h2>お問い合わせ</h2>
+<p><a href="mailto:hosokawa.m.ab@gmail.com">hosokawa.m.ab@gmail.com</a></p>
+
+<footer>
+  <a href="tokushoho.html">特定商取引法に基づく表記</a>
+  <a href="privacy.html">プライバシーポリシー</a>
+  <div>© 2026 onefield</div>
+</footer>
+</main>
+</body>
+</html>
