@@ -1,0 +1,123 @@
+{
+  "version": 1,
+  "updatedAt": "2026-11-23",
+  "orderCard": [
+    ".order-card",
+    ".js-order-card"
+  ],
+  "orderIdInCard": [
+    ".yohtmlc-order-id",
+    "[class*=\"order-id\"]"
+  ],
+  "orderIdCandidates": [
+    ".yohtmlc-order-id",
+    "[class*=\"order-id\"]",
+    "[class*=\"orderId\"]",
+    "span[dir=\"ltr\"]"
+  ],
+  "cardContainer": [
+    ".a-box-group",
+    ".a-cardui",
+    "[class*=\"order-card\"]",
+    "[class*=\"order_card\"]",
+    "li",
+    "article"
+  ],
+  "cardTotalColumn": [
+    ".a-column",
+    ".order-header .a-row"
+  ],
+  "detailLink": [
+    "a[href*=\"order-details\"]",
+    "a[href*=\"order-summary\"]"
+  ],
+  "productLink": [
+    "a[href*=\"/dp/\"]",
+    "a[href*=\"/gp/product/\"]"
+  ],
+  "pager": [
+    ".a-pagination"
+  ],
+  "pagerLast": [
+    ".a-pagination .a-last"
+  ],
+  "pagerNext": [
+    ".a-pagination .a-last a",
+    "a[aria-label*=\"次\"]",
+    ".a-pagination a[href*=\"startIndex\"]:last-of-type"
+  ],
+  "yearFilter": [
+    "select[name=\"timeFilter\"]",
+    "select[name=\"orderFilter\"]"
+  ],
+  "panelAnchor": [
+    "#ordersContainer",
+    ".your-orders-content-container",
+    "#yourOrders"
+  ],
+  "summaryRoot": [
+    "[data-component=\"orderSummary\"]",
+    "#od-subtotals"
+  ],
+  "shippingRoot": [
+    "[data-component=\"shippingAddress\"]",
+    ".displayAddressDiv",
+    ".od-shipping-address-container"
+  ],
+  "paymentRoot": [
+    "[data-component=\"paymentMethod\"]",
+    ".pmts-payments-instrument-detail-box-paystationpaymentmethod"
+  ],
+  "itemAnchor": [
+    "[data-component=\"itemTitle\"]",
+    ".yohtmlc-item",
+    ".od-item-view-qty"
+  ],
+  "itemRow": [
+    ".a-fixed-left-grid",
+    ".a-fixed-left-grid-inner",
+    ".item-box",
+    "[data-component=\"purchasedItems\"] > div"
+  ],
+  "itemTitle": [
+    "[data-component=\"itemTitle\"] a",
+    "[data-component=\"itemTitle\"]",
+    ".yohtmlc-product-title",
+    ".yohtmlc-item a.a-link-normal"
+  ],
+  "unitPrice": [
+    "[data-component=\"unitPrice\"] .a-offscreen",
+    "[data-component=\"unitPrice\"]",
+    ".a-color-price"
+  ],
+  "quantity": [
+    ".od-item-view-qty",
+    "[data-component=\"itemQuantity\"]"
+  ],
+  "seller": [
+    "[data-component=\"orderedMerchant\"]",
+    ".yohtmlc-item .a-color-secondary"
+  ],
+  "labels": {
+    "subtotal": "商品の小計",
+    "shippingFee": "配送料・手数料|配送料",
+    "discount": "割引",
+    "points": "Amazonポイント|ポイント",
+    "giftCard": "ギフト券|ショッピングカード",
+    "total": "注文合計|この注文の合計|注文の合計",
+    "billing": "ご請求額|総計",
+    "cardTotal": "合計",
+    "cancelled": "キャンセル",
+    "refunded": "返金(?:済み|されました|が完了|処理)|返品(?:済み|が完了|を受け付け|受付)",
+    "invoiceHref": "/documents/download/[^?#]+\\.pdf",
+    "robotCheck": "validateCaptcha|Robot Check|ロボットではありません",
+    "signinPath": "/ap/signin"
+  },
+  "urls": {
+    "list": "/your-orders/orders?timeFilter=year-{year}&startIndex={start}",
+    "detail": "/gp/your-account/order-details?orderID={orderNo}",
+    "invoicePopover": "/your-orders/invoice/popover?orderId={orderNo}",
+    "receipt": "/gp/css/summary/print.html?ie=UTF8&orderID={orderNo}",
+    "receiptDigital": "/gp/digital/your-account/order-summary.html?ie=UTF8&orderID={orderNo}&print=1"
+  }
+}
